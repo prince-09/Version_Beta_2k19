@@ -44,11 +44,9 @@
                     android:layout_alignRight="@+id/background"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
-                    android:layout_marginStart="153dp"
-                    android:layout_marginLeft="153dp"
+                    android:layout_marginLeft="135dp"
                     android:layout_marginTop="70dp"
-                    android:layout_marginEnd="128dp"
-                    android:layout_marginRight="128dp"
+                    android:layout_marginRight="130dp"
                     android:background="#FFFFFF"
                     android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
@@ -111,22 +109,6 @@
             app:layout_constraintTop_toBottomOf="@+id/title_account">
 
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/edit_text_otp"
-                style="@style/TextAppearance.Compat.Notification.Line2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="50dp"
-                android:visibility="gone"
-                android:hint="Enter OTP">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/edit_text_name"
