@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">beta</string>
-    <string name="YOUR_API_KEY">AIzaSyBKpPr6BOJm_9FdUgVEEK0V6XmJLNpF5OQ</string>
+    <string name="app_name">careboat</string>
+    <string name="YOUR_API_KEY" templateMergeStrategy="preserve" translatable="false">AIzaSyBKpPr6BOJm_9FdUgVEEK0V6XmJLNpF5OQ</string>
 </resources>

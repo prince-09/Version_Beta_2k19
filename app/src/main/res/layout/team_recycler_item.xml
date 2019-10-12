@@ -41,22 +41,23 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewCode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="7dp"
                 android:text="Team code"
+                android:fontFamily="@font/ubuntu_medium"
                 android:textColor="#000000"
-
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/text_view_company_name"
+                android:id="@+id/text_view_no_of_members"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="18dp"
+                android:fontFamily="@font/opensans_regular"
                 android:layout_marginRight="50dp"
                 android:text="No of Members:"
                 android:textColor="#000000"
@@ -70,27 +71,29 @@
                 android:background="#DDDDDD" />
 
             <TextView
-                android:id="@+id/tex"
+                android:id="@+id/text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="11dp"
                 android:layout_marginRight="50dp"
-                android:text="Flood Level"
+                android:text="Honours and Awards:"
+                android:fontFamily="@font/chivoregular"
                 android:textColor="#000000"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/text_view_address"
+                android:id="@+id/text_view_no"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="7dp"
                 android:layout_marginTop="7dp"
+                android:fontFamily="@font/chivoregular"
                 android:layout_marginRight="70dp"
                 android:layout_marginBottom="10dp"
                 android:lineSpacingExtra="10dp"
                 android:maxLines="2"
-                android:text="high"
+                android:text="20"
                 android:textColor="#A9a9a9"
                 android:textSize="15sp" />
 

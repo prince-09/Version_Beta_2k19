@@ -37,25 +37,30 @@
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/background2"
-                    android:layout_width="106dp"
-                    android:layout_height="106dp"
-                    android:layout_below="@+id/background"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/background"
+                    android:layout_alignEnd="@+id/background"
+                    android:layout_alignRight="@+id/background"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentLeft="true"
                     android:layout_marginStart="153dp"
                     android:layout_marginLeft="153dp"
-                    app:borderWidth="0dp"
-                    app:useCompatPadding="true"
-                    android:layout_marginTop="-130dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="128dp"
+                    android:layout_marginRight="128dp"
                     android:background="#FFFFFF"
-                    android:scaleType="fitXY"
                     android:backgroundTint="#FFFFFF"
                     android:elevation="5dp"
+                    android:scaleType="fitXY"
+                    app:fabCustomSize="106dp"
                     android:src="@drawable/arrow"
+                    app:borderWidth="0dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.498"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:useCompatPadding="true" />
 
 
             </RelativeLayout>
@@ -68,10 +73,6 @@
                 android:layout_marginEnd="100dp"
                 android:fontFamily="@font/segoeuibold"
                 android:gravity="center"
-                android:shadowColor="#201240"
-                android:shadowDx="0"
-                android:shadowDy="3"
-                android:shadowRadius="5"
                 android:text="Enter"
                 android:textColor="#49C7E7"
                 android:textSize="55dp"
@@ -89,10 +90,6 @@
             android:fontFamily="@font/segoeuibold"
             android:gravity="center"
             android:layout_gravity="center"
-            android:shadowColor="#201240"
-            android:shadowDx="0"
-            android:shadowDy="3"
-            android:shadowRadius="5"
             android:text="details"
             android:textColor="#49C7E7"
             android:textSize="20dp"
@@ -135,6 +132,8 @@
                 android:id="@+id/edit_text_name"
                 style="@style/TextAppearance.Compat.Notification.Line2"
                 android:layout_width="match_parent"
+                android:textColorHint="#D3D3D3"
+                android:backgroundTint="#D3D3D3"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
@@ -142,6 +141,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:textSize="16dp"
                     android:layout_height="wrap_content" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -152,12 +152,16 @@
                 style="@style/TextAppearance.Compat.Notification.Line2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+            android:textColorHint="#D3D3D3"
+                android:visibility="visible"
+            android:backgroundTint="#D3D3D3"
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
                 android:hint="Phone No.">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:textSize="16dp"
                     android:layout_height="wrap_content" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -168,43 +172,53 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+            android:textColorHint="#D3D3D3"
+            android:backgroundTint="#D3D3D3"
                 android:layout_marginEnd="50dp"
                 android:hint="E-mail">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:textSize="16dp"
                     android:layout_height="wrap_content" />
 
-            </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/edit_text_id"
+            style="@style/TextAppearance.Compat.Notification.Line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textColorHint="#D3D3D3"
+            android:visibility="visible"
+            android:backgroundTint="#D3D3D3"
+            android:layout_marginEnd="50dp"
+            android:hint="Admin ID No.">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textSize="16dp"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/edit_text_password"
                 style="@style/TextAppearance.Compat.Notification.Line2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+            android:textColorHint="#D3D3D3"
+            android:backgroundTint="#D3D3D3"
                 android:layout_marginStart="50dp"
                 android:layout_marginEnd="50dp"
                 android:hint="Password">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:textSize="16dp"
                     android:layout_height="wrap_content" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/edit_text_id"
-                style="@style/TextAppearance.Compat.Notification.Line2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="50dp"
-                android:layout_marginEnd="50dp"
-                android:hint="Admin ID No.">
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/edit_text_password_confirm"
@@ -212,11 +226,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
+            android:textColorHint="#D3D3D3"
+            android:backgroundTint="#D3D3D3"
+                android:visibility="visible"
                 android:layout_marginEnd="50dp"
                 android:hint="Confirm Password">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:textSize="16dp"
                     android:layout_height="wrap_content" />
 
             </com.google.android.material.textfield.TextInputLayout>
