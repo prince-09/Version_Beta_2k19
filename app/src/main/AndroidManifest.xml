@@ -22,8 +22,12 @@
             android:value="@string/YOUR_API_KEY">
         </meta-data>
 
-
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.AssignTasks"/>
+        <activity android:name=".Activities.UserDetailsTemp"/>
+        <activity android:name=".Activities.MapsActivity"/>
+        <activity android:name=".Activities.MainActivity"/>
+        <activity android:name=".Activities.UserDetails"/>
+        <activity android:name=".Activities.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
