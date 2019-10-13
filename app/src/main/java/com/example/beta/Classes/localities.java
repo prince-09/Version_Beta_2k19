@@ -6,7 +6,23 @@ public class localities {
     private String textViewLocality;
     private String text_view_landmarks;
     private String text_view_level;
+    private double latitude , longitude ;
 
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
+    }
 
     public String getTextViewLocality() {
         return textViewLocality;
@@ -33,10 +49,12 @@ public class localities {
         this.text_view_level = text_view_level;
     }
 
-    public localities(String textViewLocality, String text_view_landmarks, String text_view_level) {
+    public localities(String textViewLocality, String text_view_landmarks, String text_view_level , double latitude , double longitude) {
 
         this.textViewLocality = textViewLocality;
         this.text_view_landmarks = text_view_landmarks;
         this.text_view_level = text_view_level;
+        this.latitude = latitude ;
+        this.longitude = longitude ;
     }
 }
